@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+docx
+PyPDF2
+sqlite3
+aiogram
+langchain
+sentence-transformers
+httpx

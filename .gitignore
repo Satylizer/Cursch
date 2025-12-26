@@ -1,0 +1,41 @@
+
+echo "venv/" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo "*.pyc" >> .gitignore
+echo ".env" >> .gitignore
+echo ".idea/" >> .gitignore
+echo ".vscode/" >> .gitignore
+cat > .gitignore << 'EOF'
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.db
+*.sqlite3
+*.sqbpro
+*.bin
+
+chroma_db/
+debug_chroma/
+
+*.gguf
+*.pth
+*.h5
+*.ckpt
+*.safetensors
+
+.env
+.env.local
+.secrets/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+
+*.log
+logs/
+EOF
